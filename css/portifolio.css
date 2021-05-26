@@ -1,0 +1,386 @@
+/*cabeçalho*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   background: #000000;
+    
+}
+
+.logo img{
+    position: absolute;
+    left: 590px;
+    width: 65px;
+    height: 65px;
+}
+.sociais{
+    max-width: 452px;
+}
+.sociais ul{
+    position: absolute;
+    left:550px;
+    top: 2200px;
+    height: 60px;
+}
+ul{
+    
+}
+ul li{
+    display: inline-block;
+    padding: 1rem;
+    
+}
+ul li a{
+    text-decoration:none ;
+    color:#F7F8FA;
+    font-family: 'Khand', sans-serif;
+}
+
+.css p{
+    position: absolute;
+    left: 535px;
+    top: 450px;
+    font-family: 'khand'sans-serif;
+    color: #4ed6be;
+}
+.javascript p{
+    position: absolute;
+    left: 595px;
+    top: 450px;
+    font-family: 'khand'sans-serif;
+    color: #4ed6be;
+}
+.html p{
+    position: absolute;
+    left: 685px;
+    top: 450px;
+    font-family: 'khand'sans-serif;
+    color: #4ed6be;
+}
+
+.skills img{
+    position:relative;
+    text-align: center;
+    padding: 10px;
+    left: 515px;
+    top: 330px;
+    width: 50px;
+    height: 50px;
+}
+.cab{
+    max-width: 452px;
+}
+
+.cab img{
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    -webkit-mask-image: linear-gradient(to top,#111, transparent);
+}
+.cab h1{
+    position:absolute;
+    padding: 5px;
+    left: 480px;
+    top: 100px;
+    color: #4ed6be;
+    font-family: 'Khand', sans-serif;
+} /*meio*/
+
+.vd video{
+    position:absolute;
+    width: 100%;
+            
+}
+.porti p{
+    position: absolute;
+    color: #4ed6be;
+    height: 30px;
+    
+    top: 625px;
+    left: 600px;
+    border: 2px solid white;
+    border-left:  none ;
+    border-right: none;
+    border-top: none;
+}
+
+.section img{
+    position: absolute;
+    width: 310px;
+    height: 300px;
+    top: 720px;
+    left: 225px;
+    
+}
+.section h1{
+    position: absolute;
+    top: 765px;
+    left: 327px;
+    font-family: 'Khand', sans-serif;
+    
+}
+.section p{
+    position: absolute;
+    top: 850px;
+    left: 238px ;
+    color: #4ed6be;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.projetos img{
+    position: absolute;
+    top: 720px;
+    left: 728px;
+    width: 410px;
+    height: 300px;
+
+}
+.projetos h1{
+    position: absolute;
+    top: 765px;
+    left: 900px;
+    font-family: 'Khand', sans-serif;
+}
+.projetos h2{
+    position: absolute;
+    top: 910px;
+    left: 900px;
+    width: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.loading img{
+    position: absolute;
+    top: 850px;
+    left: 920px;
+    width: 50px;
+    height: 50px;
+
+}
+.experiencia p{
+    position: absolute;
+    top: 1150px;
+    left: 600px;
+    color: #4ed6be;
+    border: 2px solid white;
+    border-left:  none ;
+    border-right: none;
+    border-top: none;
+    height: 30px;
+}
+.img img{
+    position: absolute;
+    width: 310px;
+    height: 300px;
+    top: 1200px;
+    left: 225px;
+}
+.img h1{
+    position: absolute;
+    top: 1250px;
+    left:305px;
+    color: #111;
+
+}
+.img p{
+    position: absolute;
+    left: 280px;
+    top: 1290px;
+}
+.nome1 p{
+    position: absolute;
+    left: 280px;
+    top: 1350px;  
+}
+.nome2 p{
+    position: absolute;
+    left: 280px;
+    top: 1395px;  
+}
+.container p{
+    color:white;
+    position: absolute;
+    
+}
+.container {
+    left: 280px;
+    top: 1185px;
+    width: 200px;
+    height: 15px;
+    background-color: #CCC;
+    position: relative;
+}
+.container .progress-bar{
+   position: absolute;
+   height: 100%;
+   width: 70%;
+   background: #08796d;
+   animation: progress-animation 3s linear ;
+}
+
+@keyframes progress-animation{
+     0% { width: 0%; } 
+    70% { width: 70%;}
+   
+}
+.css2 p{
+    position: absolute;
+    color: white;
+}
+.css2 {
+    left: 280px;
+    top: 1230px;
+    width: 200px;
+    height: 15px;
+    
+    background-color: #CCC;
+    position: relative;
+}
+.css2 .progress-bar{
+   position: absolute;
+   height: 100%;
+   width: 50%;
+   background: #08796d;
+   animation: css2-progress 3s linear ;
+}
+
+@keyframes css2-progress{
+     0% { width: 0%; } 
+    50% { width: 50%;}
+   
+}.java3 p{
+    position: absolute;
+    color: white;
+}
+.java3 {
+    left: 280px;
+    top: 1265px;
+    width: 200px;
+    height: 15px;
+    
+    background-color: #CCC;
+    position: relative;
+}
+.java3 .progress-bar{
+   position: absolute;
+   height: 100%;
+   width: 5%;
+   background: #08796d;
+   animation: java3-animation 3s linear ;
+}
+
+@keyframes java3-animation{
+     0% { width: 0%; } 
+    5% { width: 5%;}
+   
+}
+
+.habilidades img{
+    position: absolute;
+    top: 1200px;
+    left: 728px;
+    width: 430px;
+    height: 300px;
+    font-family: 'Khand', sans-serif;
+}
+.expe h2{
+    position: absolute;
+    top: 1250px;
+    left:820px;
+    color: #111;
+}
+.expe p{
+    position: absolute;
+    top: 1315px;
+    left: 745px;
+    color: #4ed6be;
+}
+footer{
+    position: absolute;
+    background:linear-gradient(to left, #111,#08796d,#111);
+    top: 2310px;
+    width: 1260px;
+    height: 18px;
+    
+
+    
+
+}
+footer p{
+    position: absolute;
+    color: white;
+    top: 0px;
+    justify-content: center;
+    left: 475px;
+    font-family: 'Khand', sans-serif;
+
+}
+
+
+.contenedor-formulario{
+    position: relative;
+    left: 355px;
+    top: 1580px;
+    padding: 50px;
+    background-color: rgba(0,0,0,.2);
+    border: 1px solid  #08796d;
+    width: 500px;
+    height: 450px;
+    border-radius: 20px;
+}
+
+.row input{
+    position: absolute;
+    left: 27%;
+    border-radius: 5px;
+    
+}
+.row label{
+    font-family: 'Khand', sans-serif;
+    position: absolute;
+    color:white;
+    left: 40%;
+    justify-content: center;
+}
+.row textarea{
+    position: absolute;
+    left: 27%;
+    border-radius: 10px;
+}
+.button input{
+   position: absolute;
+   left: 50%;
+   top: 299px;
+   width: 100px;
+   font-family: 'Khand', sans-serif;
+}
+.redes ul {
+    position: absolute;
+    top: 2300px;
+}
+.foto img{
+    position: absolute;
+    top: 1655px;
+    width: 100%;
+    height: 655px;
+    -webkit-mask-image: linear-gradient(to top ,#111 ,transparent);
+}
+
+ 
+:root {
+    --white: #FFF;
+  
+    --gray-50: #F7F8FA;
+    --gray-100: #E6E8EB;
+    --gray-200: #AFB2B1;
+    --gray-500: #808080;
+    --gray-800: #494D4B;
+  
+    --green-500: #04D361;
+    
+    --purple-300: #9F75FF;
+    --purple-400: #9164FA; 
+    --purple-500: #8257E5;
+    --purple-800: #6F48C9;
+  }
+  
